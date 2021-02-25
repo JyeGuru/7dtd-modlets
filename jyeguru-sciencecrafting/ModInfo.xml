@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="JyeGuru-ScienceCrafting" />
+    <Description value="Adds various science recipes to craft limited/loot-only items." />
+    <Author value="JyeGuru" />
+    <Version value="1.0" compat="A19"/>
+    <Website value="" />
+  </ModInfo>
+</xml>

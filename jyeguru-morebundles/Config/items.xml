@@ -1,0 +1,240 @@
+<configs>
+
+	<append xpath="/items">
+
+		<!-- Thrown weapon bundles -->
+		<item name="thrownAmmoBundleMolotovCocktail">
+			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="CustomIcon" value="thrownAmmoMolotovCocktail"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="EconomicValue" value="410"/>
+			<property name="UnlockedBy" value="perkDemolitionsExpert"/>
+			<property class="Action0">
+				<property name="Create_item" value="thrownAmmoMolotovCocktail"/>
+				<property name="Create_item_count" value="20"/>
+			</property>
+		</item>
+
+		<item name="thrownAmmoBundleGrenade">
+			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="CustomIcon" value="thrownGrenade"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="EconomicValue" value="410"/>
+			<property name="UnlockedBy" value="perkDemolitionsExpert"/>
+			<property class="Action0">
+				<property name="Create_item" value="thrownGrenade"/>
+				<property name="Create_item_count" value="25"/>
+			</property>
+		</item>
+
+		<item name="thrownAmmoBundleGrenadeContact">
+			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="CustomIcon" value="thrownGrenadeContact"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="EconomicValue" value="410"/>
+			<property name="UnlockedBy" value="perkDemolitionsExpert"/>
+			<property class="Action0">
+				<property name="Create_item" value="thrownGrenadeContact"/>
+				<property name="Create_item_count" value="25"/>
+			</property>
+		</item>
+
+		<item name="thrownAmmoBundleTimedCharge">
+			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="CustomIcon" value="thrownTimedCharge"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="EconomicValue" value="410"/>
+			<property name="UnlockedBy" value="perkDemolitionsExpert"/>
+			<property class="Action0">
+				<property name="Create_item" value="thrownTimedCharge"/>
+				<property name="Create_item_count" value="10"/>
+			</property>
+		</item>
+
+		<item name="thrownAmmoBundleDynamite">
+			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="CustomIcon" value="thrownDynamite"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="UnlockedBy" value="perkDemolitionsExpert"/>
+			<property class="Action0">
+				<property name="Create_item" value="thrownDynamite"/>
+				<property name="Create_item_count" value="10"/>
+			</property>
+		</item>
+
+		<item name="thrownAmmoBundlePipeBomb">
+			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="CustomIcon" value="thrownAmmoPipeBomb"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="EconomicValue" value="820"/>
+			<property name="UnlockedBy" value="perkDemolitionsExpert"/>
+			<property class="Action0">
+				<property name="Create_item" value="thrownAmmoPipeBomb"/>
+				<property name="Create_item_count" value="20"/>
+			</property>
+		</item>
+
+		<!-- Resource Bundles -->
+		<item name="resourceBundleScrapBrass">
+			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="CustomIcon" value="resourceScrapBrass"/>
+			<property name="UnlockedBy" value="perkArtOfMiningPallets"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceScrapBrass"/>
+				<property name="Create_item_count" value="6000"/>
+			</property>
+		</item>
+		<item name="resourceBundleCrushedSand">
+			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="CustomIcon" value="resourceCrushedSand"/>
+			<property name="UnlockedBy" value="perkArtOfMiningPallets"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceCrushedSand"/>
+				<property name="Create_item_count" value="6000"/>
+			</property>
+		</item>
+		<item name="resourceBundleClayLump">
+			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="CustomIcon" value="resourceClayLump"/>
+			<property name="UnlockedBy" value="perkArtOfMiningPallets"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceClayLump"/>
+				<property name="Create_item_count" value="6000"/>
+			</property>
+		</item>
+		<item name="resourceBundleCobblestones">
+			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="CustomIcon" value="resourceCobblestones"/>
+			<property name="UnlockedBy" value="perkArtOfMiningPallets"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceCobblestones"/>
+				<property name="Create_item_count" value="1000"/>
+			</property>
+		</item>
+		<item name="resourceBundleCement">
+			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="CustomIcon" value="resourceCement"/>
+			<property name="UnlockedBy" value="perkArtOfMiningPallets"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceCement"/>
+				<property name="Create_item_count" value="1000"/>
+			</property>
+		</item>
+		<item name="resourceBundleConcreteMix">
+			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="CustomIcon" value="resourceConcreteMix"/>
+			<property name="UnlockedBy" value="perkArtOfMiningPallets"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceConcreteMix"/>
+				<property name="Create_item_count" value="1000"/>
+			</property>
+		</item>
+
+		<!-- Food bundles -->
+		<item name="foodBundleRawMeat">
+			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="CustomIcon" value="foodRawMeat"/>
+			<property name="UnlockedBy" value="perkMasterChef"/>
+			<property name="DescriptionKey" value="foodBundleGroupDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="foodRawMeat"/>
+				<property name="Create_item_count" value="100"/>
+			</property>
+		</item>
+		<item name="foodBundleRottingFlesh">
+			<property name="Extends" value="foodBundleRawMeat"/>
+			<property name="CustomIcon" value="foodRottingFlesh"/>
+			<property name="UnlockedBy" value="perkMasterChef"/>
+			<property class="Action0">
+				<property name="Create_item" value="foodRottingFlesh"/>
+				<property name="Create_item_count" value="100"/>
+			</property>
+		</item>
+		<item name="foodBundleEgg">
+			<property name="Extends" value="foodBundleRawMeat"/>
+			<property name="CustomIcon" value="foodEgg"/>
+			<property name="UnlockedBy" value="perkMasterChef"/>
+			<property class="Action0">
+				<property name="Create_item" value="foodEgg"/>
+				<property name="Create_item_count" value="100"/>
+			</property>
+		</item>
+		<item name="foodBundleCornMeal">
+			<property name="Extends" value="foodBundleRawMeat"/>
+			<property name="CustomIcon" value="foodCornMeal"/>
+			<property name="UnlockedBy" value="perkMasterChef"/>
+			<property class="Action0">
+				<property name="Create_item" value="foodCornMeal"/>
+				<property name="Create_item_count" value="100"/>
+			</property>
+		</item>
+		<item name="foodBundleCropBlueberries">
+			<property name="Extends" value="foodBundleRawMeat"/>
+			<property name="CustomIcon" value="foodCropBlueberries"/>
+			<property name="UnlockedBy" value="perkMasterChef"/>
+			<property class="Action0">
+				<property name="Create_item" value="foodCropBlueberries"/>
+				<property name="Create_item_count" value="100"/>
+			</property>
+		</item>
+		<item name="foodBundleCropCorn">
+			<property name="Extends" value="foodBundleRawMeat"/>
+			<property name="CustomIcon" value="foodCropCorn"/>
+			<property name="UnlockedBy" value="perkMasterChef"/>
+			<property class="Action0">
+				<property name="Create_item" value="foodCropCorn"/>
+				<property name="Create_item_count" value="100"/>
+			</property>
+		</item>
+		<item name="foodBundleCropGraceCorn">
+			<property name="Extends" value="foodBundleRawMeat"/>
+			<property name="CustomIcon" value="foodCropCorn"/>
+			<property name="CustomIconTint" value="ff9f9f"/>
+			<property name="UnlockedBy" value="perkMasterChef"/>
+			<property class="Action0">
+				<property name="Create_item" value="foodCropGraceCorn"/>
+				<property name="Create_item_count" value="100"/>
+			</property>
+		</item>
+		<item name="foodBundleCropPotato">
+			<property name="Extends" value="foodBundleRawMeat"/>
+			<property name="CustomIcon" value="foodCropPotato"/>
+			<property name="UnlockedBy" value="perkMasterChef"/>
+			<property class="Action0">
+				<property name="Create_item" value="foodCropPotato"/>
+				<property name="Create_item_count" value="100"/>
+			</property>
+		</item>
+		<item name="foodBundleCropMushrooms">
+			<property name="Extends" value="foodBundleRawMeat"/>
+			<property name="CustomIcon" value="foodCropMushrooms"/>
+			<property name="UnlockedBy" value="perkMasterChef"/>
+			<property class="Action0">
+				<property name="Create_item" value="foodCropMushrooms"/>
+				<property name="Create_item_count" value="100"/>
+			</property>
+		</item>
+		<item name="foodBundleCropYuccaFruit">
+			<property name="Extends" value="foodBundleRawMeat"/>
+			<property name="CustomIcon" value="foodCropYuccaFruit"/>
+			<property name="UnlockedBy" value="perkMasterChef"/>
+			<property class="Action0">
+				<property name="Create_item" value="foodCropYuccaFruit"/>
+				<property name="Create_item_count" value="100"/>
+			</property>
+		</item>
+		<item name="foodBundleCropPumpkin">
+			<property name="Extends" value="foodBundleRawMeat"/>
+			<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+			<property name="UnlockedBy" value="perkMasterChef"/>
+			<property class="Action0">
+				<property name="Create_item" value="foodCropPumpkin"/>
+				<property name="Create_item_count" value="100"/>
+			</property>
+		</item>
+
+	</append>
+
+</configs>
+

@@ -1,0 +1,6 @@
+<configs>
+
+    <!-- Birdnest: No close sound -->
+    <set xpath="/lootcontainers/lootcontainer[@id='25']/@sound_close">silencefiller</set>    <!-- birdnest sound -->
+
+</configs>

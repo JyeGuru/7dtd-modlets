@@ -1,0 +1,28 @@
+<configs>
+
+  <!--
+    Total Concrete Mix ingredients (no skills):
+    - 13x Small Stones
+    - 1x Crushed Sand
+    - Some forge burn time
+
+    1 Sand = 1 Small Stone (Vanilla Recipe)
+
+    Adjusted recipe has same overall cost, replacing the forge burn time with an extra stone->sand processing step.
+    Also without the skill bonus from Advanced Engineering, overall cost is slightly higher.
+  -->
+  
+  <!-- Remove Forge Recipe: 10x Small Stone = 1x Cement -->
+  <remove xpath="/recipes/recipe[@name='resourceCement' and @craft_area='forge']" />
+
+  <!-- Remove requirement for 1x Sand in Concrete Mix -->
+  <remove xpath="/recipes/recipe[@name='resourceConcreteMix']/ingredient[@name='resourceCrushedSand']" />
+
+  <!-- Move the sand and stone requirement to the cement stage -->
+  <append xpath="/recipes">
+    <recipe name="resourceCement" count="1" material_based="true" craft_area="cementMixer" tags="cementMixerCrafting">
+      <ingredient name="resourceCrushedSand" count="10" />
+      <ingredient name="resourceRockSmall" count="2" />
+    </recipe>
+  </append>
+</configs>

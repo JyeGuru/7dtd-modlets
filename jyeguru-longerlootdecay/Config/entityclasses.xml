@@ -1,0 +1,12 @@
+<config>
+
+    <!-- Player Backpacks -->
+    <set xpath="/entity_classes/entity_class[@name='Backpack']/property[@name='TimeStayAfterDeath']/@value">14400</set>    <!-- 4h real time -->
+
+    <!-- Backpacks that appear from looting self-destructing containers (airdrops/etc) -->
+    <set xpath="/entity_classes/entity_class[@name='DroppedLootContainer']/property[@name='TimeStayAfterDeath']/@value">300</set> <!-- 5m real time -->
+
+    <!-- Loot bags dropped from zombies - all rarities -->
+    <set xpath="/entity_classes/entity_class[starts-with(@name, 'EntityLootContainer')]/property[@name='TimeStayAfterDeath']/@value">3600</set> <!-- 1h real time -->
+
+</config>

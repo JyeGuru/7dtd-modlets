@@ -1,0 +1,23 @@
+<config>
+
+	<remove xpath="/lootcontainers/lootgroup[@name='groupApparelHats']/item[@name='armorSantaHat']" />
+	<append xpath="/lootcontainers/lootgroup[@name='groupApparelHats']">
+		<item name="modArmorSantaHat" prob="0.2"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='modArmorCosmetics']">
+		<item name="modArmorSantaHat"/>
+	</append>
+
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Melee']/item[@name='meleeWpnClubT1CandyClub']" />
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Melee']">
+		<item name="modMeleeClubCandyCane" prob="0.3"/>
+	</append>
+
+	<!-- Currently knife skinning is broken
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Melee']/item[@name='meleeWpnBladeT1CandyKnife']" />
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Melee']">
+		<item name="modMeleeShivCandyCane" prob="0.3"/>
+	</append>
+	-->
+	
+</config>

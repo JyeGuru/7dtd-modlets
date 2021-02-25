@@ -1,0 +1,176 @@
+<configs>
+
+	<append xpath="/recipes">
+
+		<!-- Vanilla resources that can be crafted as bundles, but not put BACK into bundles once unpacked -->
+		<recipe name="ammoGasCanBundle" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammoGasCan" count="10000"/>
+		</recipe>
+		<recipe name="resourceGunPowderBundle" count="1" craft_time="10" tag="learnable">
+			<ingredient name="resourceGunPowder" count="1000"/>
+		</recipe>
+		<recipe name="resourceLockPickBundle" count="1" craft_time="10" tag="learnable">
+			<ingredient name="resourceLockPick" count="50"/>
+		</recipe>
+		
+		<!-- Vanilla ammo packs, unlocked by same perks/books as the craftable boxes -->
+		<recipe name="ammoBundle9mmBulletBall" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammo9mmBulletBall" count="100"/>
+		</recipe>
+		<recipe name="ammoBundle9mmBulletHP" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammo9mmBulletHP" count="100"/>
+		</recipe>
+		<recipe name="ammoBundle9mmBulletAP" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammo9mmBulletAP" count="100"/>
+		</recipe>
+		<recipe name="ammoBundle44MagnumBulletBall" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammo44MagnumBulletBall" count="100"/>
+		</recipe>
+		<recipe name="ammoBundle44MagnumBulletHP" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammo44MagnumBulletHP" count="100"/>
+		</recipe>
+		<recipe name="ammoBundle44MagnumBulletAP" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammo44MagnumBulletAP" count="100"/>
+		</recipe>
+		<recipe name="ammoBundle762mmBulletBall" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammo762mmBulletBall" count="100"/>
+		</recipe>
+		<recipe name="ammoBundle762mmBulletHP" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammo762mmBulletHP" count="100"/>
+		</recipe>
+		<recipe name="ammoBundle762mmBulletAP" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammo762mmBulletAP" count="100"/>
+		</recipe>
+		<recipe name="ammoBundleShotgunShell" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammoShotgunShell" count="100"/>
+		</recipe>
+		<recipe name="ammoBundleShotgunSlug" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammoShotgunSlug" count="100"/>
+		</recipe>
+		<recipe name="ammoBundleShotgunBreachingSlug" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammoShotgunBreachingSlug" count="100"/>
+		</recipe>
+		<recipe name="ammoBundleBlunderbuss" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammoBlunderbuss" count="100"/>
+		</recipe>
+		<recipe name="ammoBundleJunkTurretRegular" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammoJunkTurretRegular" count="1000"/>
+		</recipe>
+		<recipe name="ammoBundleJunkTurretShell" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammoJunkTurretShell" count="1000"/>
+		</recipe>
+		<recipe name="ammoBundleJunkTurretAP" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammoJunkTurretAP" count="1000"/>
+		</recipe>
+		<recipe name="ammoBundleArrowStone" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammoArrowStone" count="100"/>
+		</recipe>
+		<recipe name="ammoBundleArrowIron" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammoArrowIron" count="100"/>
+		</recipe>
+		<recipe name="ammoBundleArrowSteelAP" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammoArrowSteelAP" count="100"/>
+		</recipe>
+		<recipe name="ammoBundleArrowFlaming" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammoArrowFlaming" count="75"/>
+		</recipe>
+		<recipe name="ammoBundleArrowExploding" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammoArrowExploding" count="75"/>
+		</recipe>
+		<recipe name="ammoBundleCrossbowBoltStone" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammoCrossbowBoltStone" count="100"/>
+		</recipe>
+		<recipe name="ammoBundleCrossbowBoltIron" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammoCrossbowBoltIron" count="100"/>
+		</recipe>
+		<recipe name="ammoBundleCrossbowBoltSteelAP" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammoCrossbowBoltSteelAP" count="100"/>
+		</recipe>
+		<recipe name="ammoBundleCrossbowBoltFlaming" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammoCrossbowBoltFlaming" count="75"/>
+		</recipe>
+		<recipe name="ammoBundleCrossbowBoltExploding" count="1" craft_time="10" tag="learnable">
+			<ingredient name="ammoCrossbowBoltExploding" count="75"/>
+		</recipe>
+
+		<!-- Custom thrown explosive bundles -->
+		<!-- Set to be unlocked by perkDemolitionsExpert level 1 (progression.xml) -->
+		<recipe name="thrownAmmoBundleMolotovCocktail" count="1" craft_time="10" tag="learnable">
+			<ingredient name="thrownAmmoMolotovCocktail" count="20"/>
+		</recipe>
+		<recipe name="thrownAmmoBundleGrenade" count="1" craft_time="10" tag="learnable">
+			<ingredient name="thrownGrenade" count="25"/>
+		</recipe>
+		<recipe name="thrownAmmoBundleGrenadeContact" count="1" craft_time="10" tag="learnable">
+			<ingredient name="thrownGrenadeContact" count="25"/>
+		</recipe>
+		<recipe name="thrownAmmoBundleTimedCharge" count="1" craft_time="10" tag="learnable">
+			<ingredient name="thrownTimedCharge" count="10"/>
+		</recipe>
+		<recipe name="thrownAmmoBundleDynamite" count="1" craft_time="10" tag="learnable">
+			<ingredient name="thrownDynamite" count="10"/>
+		</recipe>
+		<recipe name="thrownAmmoBundlePipeBomb" count="1" craft_time="10" tag="learnable">
+			<ingredient name="thrownAmmoPipeBomb" count="20"/>
+		</recipe>
+
+		<!-- Custom resource bundles -->
+		<!-- Set to be unlocked by perkArtOfMiningPallets book (progression.xml) -->
+		<recipe name="resourceBundleScrapBrass" count="1" craft_time="10" tag="learnable">
+			<ingredient name="resourceScrapBrass" count="6000"/>
+		</recipe>
+		<recipe name="resourceBundleCrushedSand" count="1" craft_time="10" tag="learnable">
+			<ingredient name="resourceCrushedSand" count="6000"/>
+		</recipe>
+		<recipe name="resourceBundleClayLump" count="1" craft_time="10" tag="learnable">
+			<ingredient name="resourceClayLump" count="6000"/>
+		</recipe>
+		<recipe name="resourceBundleCobblestones" count="1" craft_time="10" tag="learnable">
+			<ingredient name="resourceCobblestones" count="1000"/>
+		</recipe>
+		<recipe name="resourceBundleCement" count="1" craft_time="10" tag="learnable">
+			<ingredient name="resourceCement" count="1000"/>
+		</recipe>
+		<recipe name="resourceBundleConcreteMix" count="1" craft_time="10" tag="learnable">
+			<ingredient name="resourceConcreteMix" count="1000"/>
+		</recipe>
+
+		<!-- Custom food bundles -->
+		<!-- Set to be unlocked by perkMasterChef level 1 (progression.xml) -->
+		<recipe name="foodBundleRawMeat" count="1" craft_time="10" tag="learnable">
+			<ingredient name="foodRawMeat" count="100"/>
+		</recipe>
+		<recipe name="foodBundleRottingFlesh" count="1" craft_time="10" tag="learnable">
+			<ingredient name="foodRottingFlesh" count="100"/>
+		</recipe>
+		<recipe name="foodBundleEgg" count="1" craft_time="10" tag="learnable">
+			<ingredient name="foodEgg" count="100"/>
+		</recipe>
+		<recipe name="foodBundleCornMeal" count="1" craft_time="10" tag="learnable">
+			<ingredient name="foodCornMeal" count="100"/>
+		</recipe>
+		<recipe name="foodBundleCropBlueberries" count="1" craft_time="10" tag="learnable">
+			<ingredient name="foodCropBlueberries" count="100"/>
+		</recipe>
+		<recipe name="foodBundleCropCorn" count="1" craft_time="10" tag="learnable">
+			<ingredient name="foodCropCorn" count="100"/>
+		</recipe>
+		<recipe name="foodBundleCropGraceCorn" count="1" craft_time="10" tag="learnable">
+			<ingredient name="foodCropGraceCorn" count="100"/>
+		</recipe>
+		<recipe name="foodBundleCropPotato" count="1" craft_time="10" tag="learnable">
+			<ingredient name="foodCropPotato" count="100"/>
+		</recipe>
+		<recipe name="foodBundleCropMushrooms" count="1" craft_time="10" tag="learnable">
+			<ingredient name="foodCropMushrooms" count="100"/>
+		</recipe>
+		<recipe name="foodBundleCropYuccaFruit" count="1" craft_time="10" tag="learnable">
+			<ingredient name="foodCropYuccaFruit" count="100"/>
+		</recipe>
+		<recipe name="foodBundleCropPumpkin" count="1" craft_time="10" tag="learnable">
+			<ingredient name="foodCropPumpkin" count="100"/>
+		</recipe>
+
+	</append>
+
+</configs>

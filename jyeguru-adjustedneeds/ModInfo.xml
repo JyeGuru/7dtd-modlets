@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="JyeGuru-AdjustedNeeds" />
+		<Description value="Adjusts the hunger/thirst debuffs to start at 35% filled rather than 50%" />
+		<Author value="JyeGuru" />
+		<Version value="1.0" compat="A19"/>
+		<Website value="" />
+	</ModInfo>
+</xml>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="JyeGuru-AlternateCement" />
+    <Description value="Changes the way cement is crafted, removing the requirement for a forge." />
+    <Author value="JyeGuru" />
+    <Version value="1.0" compat="A19"/>
+    <Website value="" />
+  </ModInfo>
+</xml>

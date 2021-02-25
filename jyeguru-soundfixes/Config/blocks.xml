@@ -1,0 +1,9 @@
+<config>
+
+    <!-- Birdnest: Plant destroy sound instead of wood -->
+    <set xpath="/blocks/block[@name='cntBirdnest']/property[@name='Material']/@value">Mplants</set>
+
+    <!-- Cooler: Trash destroy sound instead of wood -->
+    <set xpath="/blocks/block[@name='cntCoolerRandomLootHelper']/property[@name='Material']/@value">Mtrash</set>
+
+</config>

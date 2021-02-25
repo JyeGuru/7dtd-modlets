@@ -1,0 +1,37 @@
+<configs>
+
+	<!-- Remove existing gear definitions rather than modify them, since it's just a single string value -->
+    <remove xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@class='engine']/property[@name='gear4']" />
+    <remove xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@class='engine']/property[@name='gear3']" />
+    <remove xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@class='engine']/property[@name='gear2']" />
+    <remove xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@class='engine']/property[@name='gear1']" />
+
+    <append xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@class='engine']">
+			<property name="gear1" value="
+								500,2500, -1400,800,0, 700,2200,900,
+								,
+								Vehicles/Suv/suv_decel1,
+								0, .2, 1, .5, -9, .1, .02, Vehicles/Suv/suv_idle_lp,
+								-.4, -.3, .7, .7, -.3, 9, .1, Vehicles/Suv/suv_max_speed_lp
+								"/>
+			<property name="gear2" value="
+								500,3500, -2000,1000,2000, 600,2200,800,
+								,
+								Vehicles/Suv/suv_decel1,
+								-.4, -.3, .7, .7, -9, 9, .1, Vehicles/Suv/suv_max_speed_lp
+								"/>
+			<property name="gear3" value="
+								500,4500, -2000,1000,2000, 500,2200,1000,
+								,
+								Vehicles/Suv/suv_decel1,
+								-.4, -.3, .7, .7, -9, 9, .1, Vehicles/Suv/suv_max_speed_lp
+								"/>
+			<property name="gear4" value="
+								500,6000, -2000,1000,2000, 500,9999,9999,
+								,
+								Vehicles/Suv/suv_decel1,
+								-.4, -.2, .7, .7, -9, 9, .1, Vehicles/Suv/suv_max_speed_lp
+								"/>
+    </append>
+
+</configs>

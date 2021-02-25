@@ -1,0 +1,52 @@
+<configs>
+
+	<append xpath="/item_modifiers">
+
+		<item_modifier name="modArmorSantaHat" installable_tags="head" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+			<property name="CustomIcon" value="armorSantaHat"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="EconomicValue" value="440"/>
+			<property name="DisplayType" value="clothing"/>
+			<item_property_overrides name="*">
+				<property name="UMA.Mesh" value="gear_santa_hat"/>
+				<property name="UMA.Overlay0" value="gear_santa_hat"/>
+				<property name="Mask0" value="Head" param1="outer"/>
+				<property name="ShowAltHair" value="true"/>
+			</item_property_overrides>
+			<effect_group tiered="false">
+				<passive_effect name="HypothermalResist" operation="base_add" value="21.5,25.5"/>
+				<passive_effect name="HyperthermalResist" operation="base_add" value="1.5,2.5"/>
+			</effect_group>
+		</item_modifier>
+
+		<item_modifier name="modMeleeClubCandyCane" installable_tags="club" modifier_tags="christmas" blocked_tags="noMods" type="attachment">
+			<property name="Stacknumber" value="1"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="CustomIcon" value="meleeWpnClubT1CandyClub"/>
+			<property name="EconomicValue" value="440"/>
+			<item_property_overrides name="*">
+				<property name="Meshfile" value="#Other/Items?Weapons/Melee/Candycane/candycanePrefab.prefab"/>
+			</item_property_overrides>
+		</item_modifier>
+
+		<!-- Apparently it's not possible to skin knives? This mod always results in a Null Reference error ...
+		
+		<item_modifier name="modMeleeShivCandyCane" installable_tags="knife" modifier_tags="christmas" blocked_tags="noMods" type="attachment">
+			<property name="Stacknumber" value="1"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="CustomIcon" value="meleeWpnBladeT1CandyKnife"/>
+			<property name="EconomicValue" value="440"/>
+			<item_property_overrides name="*">
+				<property name="Meshfile" value="#Other/Items?Weapons/Melee/Candycane/candycaneShivPrefab.prefab"/>
+			</item_property_overrides>
+		</item_modifier>
+		-->
+
+	</append>
+
+</configs>
+

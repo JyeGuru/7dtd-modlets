@@ -1,0 +1,7 @@
+Key,Source,Context,Changes,English
+modArmorSantaHat,item_modifiers,mod,New,Santa Hat
+modArmorSantaHatDesc,item_modifiers,mod,New,Add some christmas cheer to your head.
+modMeleeClubCandyCane,item_modifiers,mod,New,Candy Club
+modMeleeClubCandyCaneDesc,item_modifiers,mod,New,Thwap your foes in Christmas style.
+modMeleeShivCandyCane,item_modifiers,mod,New,Candy Knife
+modMeleeShivCandyCaneDesc,item_modifiers,mod,New,Made by a prison grinch with a grudge.
