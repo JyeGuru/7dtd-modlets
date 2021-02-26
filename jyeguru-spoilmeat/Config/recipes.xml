@@ -1,0 +1,16 @@
+<configs>
+
+	<append xpath="/recipes">
+
+		<recipe name="foodRottingFlesh" craft_time="60" count="1" craft_area="campfire" craft_tool="toolCookingPot">
+			<ingredient name="foodRawMeat" count="2"/>
+			<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+		</recipe>
+		<recipe name="foodRottingFlesh" craft_time="120" count="10" craft_area="chemistryStation">
+			<ingredient name="foodRawMeat" count="15"/>
+			<ingredient name="resourcePotassiumNitratePowder" count="5"/>
+		</recipe>
+
+	</append>
+
+</configs>
