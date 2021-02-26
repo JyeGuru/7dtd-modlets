@@ -12,7 +12,7 @@
 		<recipe name="resourceLockPickBundle" count="1" craft_time="10" tag="learnable">
 			<ingredient name="resourceLockPick" count="50"/>
 		</recipe>
-		
+
 		<!-- Vanilla ammo packs, unlocked by same perks/books as the craftable boxes -->
 		<recipe name="ammoBundle9mmBulletBall" count="1" craft_time="10" tag="learnable">
 			<ingredient name="ammo9mmBulletBall" count="100"/>
@@ -172,7 +172,10 @@
 		</recipe>
 
 		<!-- Misc resource bundles -->
-		<recipe name="smallEngineBundle" count="1" craft_time="10">
+		<recipe name="casinoCoinBundle" count="1" craft_time="10">
+			<ingredient name="casinoCoin" count="10000"/>
+		</recipe>
+		<recipe name="smallEngineBundle" count="1" craft_time="10" tag="learnable">			<!-- perkSalvageOperations -->
 			<ingredient name="smallEngine" count="1"/>
 		</recipe>
 		<recipe name="resourceBundleRepairKit" count="1" craft_time="10">

@@ -44,3 +44,5 @@ resourceBundleSewingKit,items,bundle,New,Carton of Sewing Kits (20)
 resourceBundleSewingKitDesc,items,bundle,New,This is a carton of sewing kits. Use this item to open and unpack it.
 smallEngineBundle,items,bundle,New,Dismantled Engine
 smallEngineBundleDesc,items,bundle,New,This is an engine that has been packaged for easier storage and transport. Use this item to open and unpack it.
+casinoCoinBundle,items,bundle,New,Roll of Dukes (10000)
+casinoCoinBundleDesc,items,bundle,New,This is a roll of Dukes. Use this item to open and unpack it.

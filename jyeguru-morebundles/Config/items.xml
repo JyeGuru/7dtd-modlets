@@ -3,6 +3,16 @@
 	<append xpath="/items">
 
 		<!-- Misc bundles -->
+		<item name="casinoCoinBundle">
+			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="CustomIcon" value="casinoCoin"/>
+			<property name="Stacknumber" value="10"/>
+			<property class="Action0">
+				<property name="Create_item" value="casinoCoin"/>
+				<property name="Create_item_count" value="10000"/>
+			</property>
+		</item>
+
 		<item name="smallEngineBundle">
 			<property name="Extends" value="resourceRockSmallBundle"/>
 			<property name="CustomIcon" value="smallEngine"/>
