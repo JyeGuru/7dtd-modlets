@@ -29,3 +29,18 @@ foodBundleCropMushrooms,items,bundle,New,Package of Mushrooms (100)
 foodBundleCropYuccaFruit,items,bundle,New,Package of Yucca Fruit (100)
 foodBundleCropPumpkin,items,bundle,New,Package of Pumpkins (100)
 foodBundleGroupDesc,items,bundle,New,This is a package of food, sealed for storage. Use this item to open and unpack it.
+drugBundlePainkillers,items,bundle,New,Bottle of Painkillers (10)
+drugBundleVitamins,items,bundle,New,Bottle of Vitamins (10)
+drugBundleHerbalAntibiotics,items,bundle,New,Bottle of Herbal Antibiotics (10)
+drugBundleAntibiotics,items,bundle,New,Bottle of Antibiotics (10)
+drugBundleSteroids,items,bundle,New,Bottle of Steroids (10)
+drugBundleGroupDesc,items,bundle,New,This is a package of drugs, sealed for storage. Use this item to open and unpack it.
+medicalBundleFirstAidBandage,items,bundle,New,Packet of First Aid Bandages (5)
+medicalBundleFirstAidKit,items,bundle,New,Packet of First Aid Kits (5)
+medicalBundleGroupDesc,items,bundle,New,This is a package of first aid, sealed for storage. Use this item to open and unpack it.
+resourceBundleRepairKit,items,bundle,New,Carton of Repair Kits (25)
+resourceBundleRepairKitDesc,items,bundle,New,This is a carton of repair kits. Use this item to open and unpack it.
+resourceBundleSewingKit,items,bundle,New,Carton of Sewing Kits (20)
+resourceBundleSewingKitDesc,items,bundle,New,This is a carton of sewing kits. Use this item to open and unpack it.
+smallEngineBundle,items,bundle,New,Dismantled Engine
+smallEngineBundleDesc,items,bundle,New,This is an engine that has been packaged for easier storage and transport. Use this item to open and unpack it.

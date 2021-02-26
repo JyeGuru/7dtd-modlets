@@ -171,6 +171,42 @@
 			<ingredient name="foodCropPumpkin" count="100"/>
 		</recipe>
 
+		<!-- Misc resource bundles -->
+		<recipe name="smallEngineBundle" count="1" craft_time="10">
+			<ingredient name="smallEngine" count="1"/>
+		</recipe>
+		<recipe name="resourceBundleRepairKit" count="1" craft_time="10">
+			<ingredient name="resourceRepairKit" count="25"/>
+		</recipe>
+		<recipe name="resourceBundleSewingKit" count="1" craft_time="10">
+			<ingredient name="resourceSewingKit" count="20"/>
+		</recipe>
+
+		<!-- Healing bundles -->
+		<recipe name="medicalBundleFirstAidBandage" count="1" craft_time="10">
+			<ingredient name="medicalFirstAidBandage" count="5"/>
+		</recipe>
+		<recipe name="medicalBundleFirstAidKit" count="1" craft_time="10">
+			<ingredient name="medicalFirstAidKit" count="5"/>
+		</recipe>
+
+		<!-- Drug bundles -->
+		<recipe name="drugBundlePainkillers" count="1" craft_time="10">
+			<ingredient name="drugPainkillers" count="10"/>
+		</recipe>
+		<recipe name="drugBundleVitamins" count="1" craft_time="10">
+			<ingredient name="drugVitamins" count="10"/>
+		</recipe>
+		<recipe name="drugBundleHerbalAntibiotics" count="1" craft_time="10">
+			<ingredient name="drugHerbalAntibiotics" count="10"/>
+		</recipe>
+		<recipe name="drugBundleAntibiotics" count="1" craft_time="10">
+			<ingredient name="drugAntibiotics" count="10"/>
+		</recipe>
+		<recipe name="drugBundleSteroids" count="1" craft_time="10">
+			<ingredient name="drugSteroids" count="10"/>
+		</recipe>
+
 	</append>
 
 </configs>

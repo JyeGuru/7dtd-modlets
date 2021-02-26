@@ -2,6 +2,107 @@
 
 	<append xpath="/items">
 
+		<!-- Misc bundles -->
+		<item name="smallEngineBundle">
+			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="CustomIcon" value="smallEngine"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="UnlockedBy" value="perkSalvageOperations"/>
+			<property class="Action0">
+				<property name="Create_item" value="smallEngine"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+
+		<item name="resourceBundleRepairKit">
+			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="CustomIcon" value="resourceRepairKit"/>
+			<property name="Stacknumber" value="10"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceRepairKit"/>
+				<property name="Create_item_count" value="25"/>
+			</property>
+		</item>
+
+		<item name="resourceBundleSewingKit">
+			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="CustomIcon" value="resourceSewingKit"/>
+			<property name="Stacknumber" value="10"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceSewingKit"/>
+				<property name="Create_item_count" value="20"/>
+			</property>
+		</item>
+
+		<!-- Healing bundles -->
+		<item name="medicalBundleFirstAidBandage">
+			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="CustomIcon" value="medicalFirstAidBandage"/>
+			<property name="DescriptionKey" value="medicalBundleGroupDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="medicalFirstAidBandage"/>
+				<property name="Create_item_count" value="5"/>
+			</property>
+		</item>
+
+		<item name="medicalBundleFirstAidKit">
+			<property name="Extends" value="medicalBundleFirstAidBandage"/>
+			<property name="CustomIcon" value="medicalFirstAidKit"/>
+			<property class="Action0">
+				<property name="Create_item" value="medicalFirstAidKit"/>
+				<property name="Create_item_count" value="5"/>
+			</property>
+		</item>
+
+		<!-- Drug bundles -->
+		<item name="drugBundlePainkillers">
+			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="CustomIcon" value="drugPainkillers"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="DescriptionKey" value="drugBundleGroupDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="drugPainkillers"/>
+				<property name="Create_item_count" value="10"/>
+			</property>
+		</item>
+
+		<item name="drugBundleVitamins">
+			<property name="Extends" value="drugBundlePainkillers"/>
+			<property name="CustomIcon" value="drugVitamins"/>
+			<property class="Action0">
+				<property name="Create_item" value="drugVitamins"/>
+				<property name="Create_item_count" value="10"/>
+			</property>
+		</item>
+
+		<item name="drugBundleHerbalAntibiotics">
+			<property name="Extends" value="drugBundlePainkillers"/>
+			<property name="CustomIcon" value="drugPainkillers"/>
+			<property name="CustomIconTint" value="b0ffb0"/>
+			<property class="Action0">
+				<property name="Create_item" value="drugHerbalAntibiotics"/>
+				<property name="Create_item_count" value="10"/>
+			</property>
+		</item>
+
+		<item name="drugBundleAntibiotics">
+			<property name="Extends" value="drugBundlePainkillers"/>
+			<property name="CustomIcon" value="drugAntibiotics"/>
+			<property class="Action0">
+				<property name="Create_item" value="drugAntibiotics"/>
+				<property name="Create_item_count" value="10"/>
+			</property>
+		</item>
+
+		<item name="drugBundleSteroids">
+			<property name="Extends" value="drugBundlePainkillers"/>
+			<property name="CustomIcon" value="drugSteroids"/>
+			<property class="Action0">
+				<property name="Create_item" value="drugSteroids"/>
+				<property name="Create_item_count" value="10"/>
+			</property>
+		</item>
+
 		<!-- Thrown weapon bundles -->
 		<item name="thrownAmmoBundleMolotovCocktail">
 			<property name="Extends" value="ammoBundleMaster"/>
@@ -85,6 +186,7 @@
 				<property name="Create_item_count" value="6000"/>
 			</property>
 		</item>
+
 		<item name="resourceBundleCrushedSand">
 			<property name="Extends" value="resourceRockSmallBundle"/>
 			<property name="CustomIcon" value="resourceCrushedSand"/>
@@ -94,6 +196,7 @@
 				<property name="Create_item_count" value="6000"/>
 			</property>
 		</item>
+
 		<item name="resourceBundleClayLump">
 			<property name="Extends" value="resourceRockSmallBundle"/>
 			<property name="CustomIcon" value="resourceClayLump"/>
@@ -103,6 +206,7 @@
 				<property name="Create_item_count" value="6000"/>
 			</property>
 		</item>
+
 		<item name="resourceBundleCobblestones">
 			<property name="Extends" value="resourceRockSmallBundle"/>
 			<property name="CustomIcon" value="resourceCobblestones"/>
@@ -112,6 +216,7 @@
 				<property name="Create_item_count" value="1000"/>
 			</property>
 		</item>
+
 		<item name="resourceBundleCement">
 			<property name="Extends" value="resourceRockSmallBundle"/>
 			<property name="CustomIcon" value="resourceCement"/>
@@ -121,6 +226,7 @@
 				<property name="Create_item_count" value="1000"/>
 			</property>
 		</item>
+
 		<item name="resourceBundleConcreteMix">
 			<property name="Extends" value="resourceRockSmallBundle"/>
 			<property name="CustomIcon" value="resourceConcreteMix"/>
@@ -142,6 +248,7 @@
 				<property name="Create_item_count" value="100"/>
 			</property>
 		</item>
+
 		<item name="foodBundleRottingFlesh">
 			<property name="Extends" value="foodBundleRawMeat"/>
 			<property name="CustomIcon" value="foodRottingFlesh"/>
@@ -151,6 +258,7 @@
 				<property name="Create_item_count" value="100"/>
 			</property>
 		</item>
+
 		<item name="foodBundleEgg">
 			<property name="Extends" value="foodBundleRawMeat"/>
 			<property name="CustomIcon" value="foodEgg"/>
@@ -160,6 +268,7 @@
 				<property name="Create_item_count" value="100"/>
 			</property>
 		</item>
+
 		<item name="foodBundleCornMeal">
 			<property name="Extends" value="foodBundleRawMeat"/>
 			<property name="CustomIcon" value="foodCornMeal"/>
@@ -169,6 +278,7 @@
 				<property name="Create_item_count" value="100"/>
 			</property>
 		</item>
+
 		<item name="foodBundleCropBlueberries">
 			<property name="Extends" value="foodBundleRawMeat"/>
 			<property name="CustomIcon" value="foodCropBlueberries"/>
@@ -178,6 +288,7 @@
 				<property name="Create_item_count" value="100"/>
 			</property>
 		</item>
+
 		<item name="foodBundleCropCorn">
 			<property name="Extends" value="foodBundleRawMeat"/>
 			<property name="CustomIcon" value="foodCropCorn"/>
@@ -187,6 +298,7 @@
 				<property name="Create_item_count" value="100"/>
 			</property>
 		</item>
+
 		<item name="foodBundleCropGraceCorn">
 			<property name="Extends" value="foodBundleRawMeat"/>
 			<property name="CustomIcon" value="foodCropCorn"/>
@@ -197,6 +309,7 @@
 				<property name="Create_item_count" value="100"/>
 			</property>
 		</item>
+
 		<item name="foodBundleCropPotato">
 			<property name="Extends" value="foodBundleRawMeat"/>
 			<property name="CustomIcon" value="foodCropPotato"/>
@@ -206,6 +319,7 @@
 				<property name="Create_item_count" value="100"/>
 			</property>
 		</item>
+
 		<item name="foodBundleCropMushrooms">
 			<property name="Extends" value="foodBundleRawMeat"/>
 			<property name="CustomIcon" value="foodCropMushrooms"/>
@@ -215,6 +329,7 @@
 				<property name="Create_item_count" value="100"/>
 			</property>
 		</item>
+
 		<item name="foodBundleCropYuccaFruit">
 			<property name="Extends" value="foodBundleRawMeat"/>
 			<property name="CustomIcon" value="foodCropYuccaFruit"/>
@@ -224,6 +339,7 @@
 				<property name="Create_item_count" value="100"/>
 			</property>
 		</item>
+
 		<item name="foodBundleCropPumpkin">
 			<property name="Extends" value="foodBundleRawMeat"/>
 			<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
