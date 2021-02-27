@@ -47,6 +47,8 @@ smallEngineBundle,items,bundle,New,Packaged Engine
 smallEngineBundleDesc,items,bundle,New,This is an engine that has been packaged for easier storage and transport. Use this item to open and unpack it.
 casinoCoinBundle,items,bundle,New,Roll of Dukes (10000)
 casinoCoinBundleDesc,items,bundle,New,This is a roll of Dukes. Use this item to open and unpack it.
+oldCashBundle,items,bundle,New,Roll of Cash (10000)
+oldCashBundleDesc,items,bundle,New,This is a roll of old-world cash. Use this item to open and unpack it.
 mineBundleCandyTin,items,bundle,New,Case of Candy Tin Mines (25)
 mineBundleScrapIronPlate,items,bundle,New,Case of Trigger Plate Mines (25)
 mineBundleCookingPot,items,bundle,New,Case of Cooking Pot Mines (25)

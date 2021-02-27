@@ -196,6 +196,9 @@
 		<recipe name="casinoCoinBundle" count="1" craft_exp_gain="0" craft_time="10">
 			<ingredient name="casinoCoin" count="10000"/>
 		</recipe>
+		<recipe name="oldCashBundle" count="1" craft_exp_gain="0" craft_time="10">
+			<ingredient name="oldCash" count="10000"/>
+		</recipe>
 		<recipe name="smallEngineBundle" count="1" craft_exp_gain="0" craft_time="10" tag="learnable">			<!-- perkSalvageOperations -->
 			<ingredient name="smallEngine" count="1"/>
 		</recipe>
