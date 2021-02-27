@@ -5,12 +5,13 @@ thrownAmmoBundleGrenadeContact,items,bundle,New,Case of Contact Grenades (25)
 thrownAmmoBundleTimedCharge,items,bundle,New,Case of Timed Charges (10)
 thrownAmmoBundleDynamite,items,bundle,New,Case of Dynamite (10)
 thrownAmmoBundlePipeBomb,items,bundle,New,Case of Pipe Bombs (20)
+thrownAmmoBundleGroupDesc,items,bundle,New,This is a case of explosives. Use this item to open and unpack it.
 resourceBundleScrapBrass,items,bundle,New,Stack of Brass (6000)
 resourceBundleScrapBrassDesc,items,bundle,New,This is a compact stack of brass. Use this item to open and unpack it.
 resourceBundleCrushedSand,items,bundle,New,Stack of Crushed Sand (6000)
 resourceBundleCrushedSandDesc,items,bundle,New,This is a compact stack of crushed sand. Use this item to open and unpack it.
 resourceBundleClayLump,items,bundle,New,Stack of Clay (6000)
-resourceBundleClayLumpDesc,items,bundle,This is a compact stack of clay. Use this item to open and unpack it.
+resourceBundleClayLumpDesc,items,bundle,New,This is a compact stack of clay. Use this item to open and unpack it.
 resourceBundleCobblestones,items,bundle,New,Bag of Cobblestones (1000)
 resourceBundleCobblestonesDesc,items,bundle,New,This is a bag of cobblestones. Use this item to open and unpack it.
 resourceBundleCement,items,bundle,New,Bag of Cement (1000)
@@ -28,16 +29,16 @@ foodBundleCropPotato,items,bundle,New,Package of Potatos (100)
 foodBundleCropMushrooms,items,bundle,New,Package of Mushrooms (100)
 foodBundleCropYuccaFruit,items,bundle,New,Package of Yucca Fruit (100)
 foodBundleCropPumpkin,items,bundle,New,Package of Pumpkins (100)
-foodBundleGroupDesc,items,bundle,New,This is a package of food, sealed for storage. Use this item to open and unpack it.
+foodBundleGroupDesc,items,bundle,New,"This is a package of food, sealed for storage. Use this item to open and unpack it."
 drugBundlePainkillers,items,bundle,New,Bottle of Painkillers (10)
 drugBundleVitamins,items,bundle,New,Bottle of Vitamins (10)
 drugBundleHerbalAntibiotics,items,bundle,New,Bottle of Herbal Antibiotics (10)
 drugBundleAntibiotics,items,bundle,New,Bottle of Antibiotics (10)
 drugBundleSteroids,items,bundle,New,Bottle of Steroids (10)
-drugBundleGroupDesc,items,bundle,New,This is a package of drugs, sealed for storage. Use this item to open and unpack it.
+drugBundleGroupDesc,items,bundle,New,"This is a package of drugs, sealed for storage. Use this item to open and unpack it."
 medicalBundleFirstAidBandage,items,bundle,New,Packet of First Aid Bandages (5)
 medicalBundleFirstAidKit,items,bundle,New,Packet of First Aid Kits (5)
-medicalBundleGroupDesc,items,bundle,New,This is a package of first aid, sealed for storage. Use this item to open and unpack it.
+medicalBundleGroupDesc,items,bundle,New,"This is a package of first aid, sealed for storage. Use this item to open and unpack it."
 resourceBundleRepairKit,items,bundle,New,Carton of Repair Kits (25)
 resourceBundleRepairKitDesc,items,bundle,New,This is a carton of repair kits. Use this item to open and unpack it.
 resourceBundleSewingKit,items,bundle,New,Carton of Sewing Kits (20)
