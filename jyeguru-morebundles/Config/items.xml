@@ -1,10 +1,39 @@
 <configs>
 
+	<!-- Adjust bundle icon for vanilla resource bundles to match for consistency -->
+	<set xpath="/items/item[@name='resourceRockSmallBundle']/property[@name='ItemTypeIcon']/@value">bundle</set>
+
 	<append xpath="/items">
+
+		<!-- Base bundle template -->
+		<item name="customBundleMaster">
+			<property name="CreativeMode" value="None"/>
+			<!-- Base values -->
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mtrash"/>
+			<property name="Weight" value="0"/>
+			<!-- To be overridden -->
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="0"/>
+			<property name="Group" value="Resources"/>
+			<property name="CustomIcon" value="cntGarageStorage"/>
+			<property name="Stacknumber" value="5"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourcePaper"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
 
 		<!-- Misc bundles -->
 		<item name="casinoCoinBundle">
-			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="Extends" value="customBundleMaster"/>
 			<property name="CustomIcon" value="casinoCoin"/>
 			<property name="Stacknumber" value="10"/>
 			<property class="Action0">
@@ -14,7 +43,7 @@
 		</item>
 
 		<item name="smallEngineBundle">
-			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="Extends" value="customBundleMaster"/>
 			<property name="CustomIcon" value="smallEngine"/>
 			<property name="Stacknumber" value="10"/>
 			<property name="UnlockedBy" value="perkSalvageOperations"/>
@@ -25,7 +54,7 @@
 		</item>
 
 		<item name="resourceBundleRepairKit">
-			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="Extends" value="customBundleMaster"/>
 			<property name="CustomIcon" value="resourceRepairKit"/>
 			<property name="Stacknumber" value="10"/>
 			<property class="Action0">
@@ -35,7 +64,7 @@
 		</item>
 
 		<item name="resourceBundleSewingKit">
-			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="Extends" value="customBundleMaster"/>
 			<property name="CustomIcon" value="resourceSewingKit"/>
 			<property name="Stacknumber" value="10"/>
 			<property class="Action0">
@@ -45,10 +74,17 @@
 		</item>
 
 		<!-- Healing bundles -->
-		<item name="medicalBundleFirstAidBandage">
-			<property name="Extends" value="resourceRockSmallBundle"/>
-			<property name="CustomIcon" value="medicalFirstAidBandage"/>
+		<item name="medicalBundleMaster">
+			<property name="Extends" value="customBundleMaster"/>
+			<property name="CreativeMode" value="None"/>
 			<property name="DescriptionKey" value="medicalBundleGroupDesc"/>
+			<property name="Group" value="Science,Medical"/>
+			<property name="Stacknumber" value="5"/>
+		</item>
+
+		<item name="medicalBundleFirstAidBandage">
+			<property name="Extends" value="medicalBundleMaster"/>
+			<property name="CustomIcon" value="medicalFirstAidBandage"/>
 			<property class="Action0">
 				<property name="Create_item" value="medicalFirstAidBandage"/>
 				<property name="Create_item_count" value="5"/>
@@ -56,7 +92,7 @@
 		</item>
 
 		<item name="medicalBundleFirstAidKit">
-			<property name="Extends" value="medicalBundleFirstAidBandage"/>
+			<property name="Extends" value="medicalBundleMaster"/>
 			<property name="CustomIcon" value="medicalFirstAidKit"/>
 			<property class="Action0">
 				<property name="Create_item" value="medicalFirstAidKit"/>
@@ -65,11 +101,17 @@
 		</item>
 
 		<!-- Drug bundles -->
-		<item name="drugBundlePainkillers">
-			<property name="Extends" value="resourceRockSmallBundle"/>
-			<property name="CustomIcon" value="drugPainkillers"/>
-			<property name="Stacknumber" value="10"/>
+		<item name="drugBundleMaster">
+			<property name="Extends" value="customBundleMaster"/>
+			<property name="CreativeMode" value="None"/>
 			<property name="DescriptionKey" value="drugBundleGroupDesc"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Science,CFChemicals,Medical"/>
+		</item>
+
+		<item name="drugBundlePainkillers">
+			<property name="Extends" value="drugBundleMaster"/>
+			<property name="CustomIcon" value="drugPainkillers"/>
 			<property class="Action0">
 				<property name="Create_item" value="drugPainkillers"/>
 				<property name="Create_item_count" value="10"/>
@@ -77,7 +119,7 @@
 		</item>
 
 		<item name="drugBundleVitamins">
-			<property name="Extends" value="drugBundlePainkillers"/>
+			<property name="Extends" value="drugBundleMaster"/>
 			<property name="CustomIcon" value="drugVitamins"/>
 			<property class="Action0">
 				<property name="Create_item" value="drugVitamins"/>
@@ -86,7 +128,7 @@
 		</item>
 
 		<item name="drugBundleHerbalAntibiotics">
-			<property name="Extends" value="drugBundlePainkillers"/>
+			<property name="Extends" value="drugBundleMaster"/>
 			<property name="CustomIcon" value="drugPainkillers"/>
 			<property name="CustomIconTint" value="b0ffb0"/>
 			<property class="Action0">
@@ -96,7 +138,7 @@
 		</item>
 
 		<item name="drugBundleAntibiotics">
-			<property name="Extends" value="drugBundlePainkillers"/>
+			<property name="Extends" value="drugBundleMaster"/>
 			<property name="CustomIcon" value="drugAntibiotics"/>
 			<property class="Action0">
 				<property name="Create_item" value="drugAntibiotics"/>
@@ -105,7 +147,7 @@
 		</item>
 
 		<item name="drugBundleSteroids">
-			<property name="Extends" value="drugBundlePainkillers"/>
+			<property name="Extends" value="drugBundleMaster"/>
 			<property name="CustomIcon" value="drugSteroids"/>
 			<property class="Action0">
 				<property name="Create_item" value="drugSteroids"/>
@@ -114,11 +156,19 @@
 		</item>
 
 		<!-- Thrown weapon bundles -->
+		<item name="thrownAmmoBundleMaster">
+			<property name="Extends" value="customBundleMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="DescriptionKey" value="thrownAmmoBundleGroupDesc"/>
+			<property name="UnlockedBy" value="perkDemolitionsExpert"/>
+			<property name="Group" value="Ammo/Weapons"/>
+		</item>
+
 		<item name="thrownAmmoBundleMolotovCocktail">
-			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="Extends" value="thrownAmmoBundleMaster"/>
 			<property name="CustomIcon" value="thrownAmmoMolotovCocktail"/>
 			<property name="Stacknumber" value="10"/>
-			<property name="EconomicValue" value="410"/>
 			<property name="UnlockedBy" value="perkDemolitionsExpert"/>
 			<property class="Action0">
 				<property name="Create_item" value="thrownAmmoMolotovCocktail"/>
@@ -127,11 +177,8 @@
 		</item>
 
 		<item name="thrownAmmoBundleGrenade">
-			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="Extends" value="thrownAmmoBundleMaster"/>
 			<property name="CustomIcon" value="thrownGrenade"/>
-			<property name="Stacknumber" value="10"/>
-			<property name="EconomicValue" value="410"/>
-			<property name="UnlockedBy" value="perkDemolitionsExpert"/>
 			<property class="Action0">
 				<property name="Create_item" value="thrownGrenade"/>
 				<property name="Create_item_count" value="25"/>
@@ -139,11 +186,8 @@
 		</item>
 
 		<item name="thrownAmmoBundleGrenadeContact">
-			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="Extends" value="thrownAmmoBundleMaster"/>
 			<property name="CustomIcon" value="thrownGrenadeContact"/>
-			<property name="Stacknumber" value="10"/>
-			<property name="EconomicValue" value="410"/>
-			<property name="UnlockedBy" value="perkDemolitionsExpert"/>
 			<property class="Action0">
 				<property name="Create_item" value="thrownGrenadeContact"/>
 				<property name="Create_item_count" value="25"/>
@@ -151,11 +195,8 @@
 		</item>
 
 		<item name="thrownAmmoBundleTimedCharge">
-			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="Extends" value="thrownAmmoBundleMaster"/>
 			<property name="CustomIcon" value="thrownTimedCharge"/>
-			<property name="Stacknumber" value="10"/>
-			<property name="EconomicValue" value="410"/>
-			<property name="UnlockedBy" value="perkDemolitionsExpert"/>
 			<property class="Action0">
 				<property name="Create_item" value="thrownTimedCharge"/>
 				<property name="Create_item_count" value="10"/>
@@ -163,11 +204,8 @@
 		</item>
 
 		<item name="thrownAmmoBundleDynamite">
-			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="Extends" value="thrownAmmoBundleMaster"/>
 			<property name="CustomIcon" value="thrownDynamite"/>
-			<property name="Stacknumber" value="10"/>
-			<property name="EconomicValue" value="1000"/>
-			<property name="UnlockedBy" value="perkDemolitionsExpert"/>
 			<property class="Action0">
 				<property name="Create_item" value="thrownDynamite"/>
 				<property name="Create_item_count" value="10"/>
@@ -175,11 +213,8 @@
 		</item>
 
 		<item name="thrownAmmoBundlePipeBomb">
-			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="Extends" value="thrownAmmoBundleMaster"/>
 			<property name="CustomIcon" value="thrownAmmoPipeBomb"/>
-			<property name="Stacknumber" value="10"/>
-			<property name="EconomicValue" value="820"/>
-			<property name="UnlockedBy" value="perkDemolitionsExpert"/>
 			<property class="Action0">
 				<property name="Create_item" value="thrownAmmoPipeBomb"/>
 				<property name="Create_item_count" value="20"/>
@@ -187,13 +222,18 @@
 		</item>
 
 		<!-- Land mine bundles -->
-		<item name="mineBundleCandyTin">
-			<property name="Extends" value="ammoBundleMaster"/>
-			<property name="CustomIcon" value="mineCandyTin"/>
+		<item name="mineBundleMaster">
+			<property name="Extends" value="customBundleMaster"/>
+			<property name="CreativeMode" value="None"/>
 			<property name="Stacknumber" value="10"/>
-			<property name="EconomicValue" value="2425"/>
 			<property name="UnlockedBy" value="perkDemolitionsExpert"/>
 			<property name="DescriptionKey" value="mineBundleGroupDesc"/>
+			<property name="Group" value="Tools/Traps"/>
+		</item>
+
+		<item name="mineBundleCandyTin">
+			<property name="Extends" value="mineBundleMaster"/>
+			<property name="CustomIcon" value="mineCandyTin"/>
 			<property class="Action0">
 				<property name="Create_item" value="mineCandyTin"/>
 				<property name="Create_item_count" value="25"/>
@@ -201,9 +241,8 @@
 		</item>
 
 		<item name="mineBundleScrapIronPlate">
-			<property name="Extends" value="mineBundleCandyTin"/>
+			<property name="Extends" value="mineBundleMaster"/>
 			<property name="CustomIcon" value="rScrapIronPlate"/>
-			<property name="EconomicValue" value="2875"/>
 			<property class="Action0">
 				<property name="Create_item" value="rScrapIronPlateMine"/>
 				<property name="Create_item_count" value="25"/>
@@ -211,10 +250,9 @@
 		</item>
 
 		<item name="mineBundleCookingPot">
-			<property name="Extends" value="mineBundleCandyTin"/>
+			<property name="Extends" value="mineBundleMaster"/>
 			<property name="CustomIcon" value="toolCookingPot"/>
 			<property name="CustomIconTint" value="ffb0b0"/>
-			<property name="EconomicValue" value="3000"/>
 			<property class="Action0">
 				<property name="Create_item" value="mineCookingPot"/>
 				<property name="Create_item_count" value="25"/>
@@ -222,9 +260,8 @@
 		</item>
 
 		<item name="mineBundleHubcap">
-			<property name="Extends" value="mineBundleCandyTin"/>
+			<property name="Extends" value="mineBundleMaster"/>
 			<property name="CustomIcon" value="mineHubcap"/>
-			<property name="EconomicValue" value="2920"/>
 			<property class="Action0">
 				<property name="Create_item" value="mineHubcap"/>
 				<property name="Create_item_count" value="20"/>
@@ -232,9 +269,8 @@
 		</item>
 
 		<item name="mineBundleAirFilter">
-			<property name="Extends" value="mineBundleCandyTin"/>
+			<property name="Extends" value="mineBundleMaster"/>
 			<property name="CustomIcon" value="mineAirFilter"/>
-			<property name="EconomicValue" value="1820"/>
 			<property class="Action0">
 				<property name="Create_item" value="mineAirFilter"/>
 				<property name="Create_item_count" value="10"/>
@@ -242,10 +278,19 @@
 		</item>
 
 		<!-- Resource Bundles -->
-		<item name="resourceBundleScrapBrass">
-			<property name="Extends" value="resourceRockSmallBundle"/>
-			<property name="CustomIcon" value="resourceScrapBrass"/>
+		<item name="resourceBundleMaster">
+			<property name="Extends" value="customBundleMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Stacknumber" value="5"/>
 			<property name="UnlockedBy" value="perkArtOfMiningPallets"/>
+			<property name="Group" value="Resources"/>
+			<!-- Individual descriptions in Localization.txt
+			<property name="DescriptionKey" value="resourceBundleGroupDesc"/> -->
+		</item>
+
+		<item name="resourceBundleScrapBrass">
+			<property name="Extends" value="resourceBundleMaster"/>
+			<property name="CustomIcon" value="resourceScrapBrass"/>
 			<property class="Action0">
 				<property name="Create_item" value="resourceScrapBrass"/>
 				<property name="Create_item_count" value="6000"/>
@@ -253,9 +298,8 @@
 		</item>
 
 		<item name="resourceBundleCrushedSand">
-			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="Extends" value="resourceBundleMaster"/>
 			<property name="CustomIcon" value="resourceCrushedSand"/>
-			<property name="UnlockedBy" value="perkArtOfMiningPallets"/>
 			<property class="Action0">
 				<property name="Create_item" value="resourceCrushedSand"/>
 				<property name="Create_item_count" value="6000"/>
@@ -263,9 +307,8 @@
 		</item>
 
 		<item name="resourceBundleClayLump">
-			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="Extends" value="resourceBundleMaster"/>
 			<property name="CustomIcon" value="resourceClayLump"/>
-			<property name="UnlockedBy" value="perkArtOfMiningPallets"/>
 			<property class="Action0">
 				<property name="Create_item" value="resourceClayLump"/>
 				<property name="Create_item_count" value="6000"/>
@@ -273,9 +316,8 @@
 		</item>
 
 		<item name="resourceBundleCobblestones">
-			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="Extends" value="resourceBundleMaster"/>
 			<property name="CustomIcon" value="resourceCobblestones"/>
-			<property name="UnlockedBy" value="perkArtOfMiningPallets"/>
 			<property class="Action0">
 				<property name="Create_item" value="resourceCobblestones"/>
 				<property name="Create_item_count" value="1000"/>
@@ -283,9 +325,8 @@
 		</item>
 
 		<item name="resourceBundleCement">
-			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="Extends" value="resourceBundleMaster"/>
 			<property name="CustomIcon" value="resourceCement"/>
-			<property name="UnlockedBy" value="perkArtOfMiningPallets"/>
 			<property class="Action0">
 				<property name="Create_item" value="resourceCement"/>
 				<property name="Create_item_count" value="1000"/>
@@ -293,9 +334,8 @@
 		</item>
 
 		<item name="resourceBundleConcreteMix">
-			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="Extends" value="resourceBundleMaster"/>
 			<property name="CustomIcon" value="resourceConcreteMix"/>
-			<property name="UnlockedBy" value="perkArtOfMiningPallets"/>
 			<property class="Action0">
 				<property name="Create_item" value="resourceConcreteMix"/>
 				<property name="Create_item_count" value="1000"/>
@@ -303,11 +343,18 @@
 		</item>
 
 		<!-- Food bundles -->
-		<item name="foodBundleRawMeat">
-			<property name="Extends" value="resourceRockSmallBundle"/>
-			<property name="CustomIcon" value="foodRawMeat"/>
+		<item name="foodBundleMaster">
+			<property name="Extends" value="customBundleMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Stacknumber" value="5"/>
 			<property name="UnlockedBy" value="perkMasterChef"/>
 			<property name="DescriptionKey" value="foodBundleGroupDesc"/>
+			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+		</item>
+
+		<item name="foodBundleRawMeat">
+			<property name="Extends" value="foodBundleMaster"/>
+			<property name="CustomIcon" value="foodRawMeat"/>
 			<property class="Action0">
 				<property name="Create_item" value="foodRawMeat"/>
 				<property name="Create_item_count" value="100"/>
@@ -315,9 +362,8 @@
 		</item>
 
 		<item name="foodBundleRottingFlesh">
-			<property name="Extends" value="foodBundleRawMeat"/>
+			<property name="Extends" value="foodBundleMaster"/>
 			<property name="CustomIcon" value="foodRottingFlesh"/>
-			<property name="UnlockedBy" value="perkMasterChef"/>
 			<property class="Action0">
 				<property name="Create_item" value="foodRottingFlesh"/>
 				<property name="Create_item_count" value="100"/>
@@ -325,9 +371,8 @@
 		</item>
 
 		<item name="foodBundleEgg">
-			<property name="Extends" value="foodBundleRawMeat"/>
+			<property name="Extends" value="foodBundleMaster"/>
 			<property name="CustomIcon" value="foodEgg"/>
-			<property name="UnlockedBy" value="perkMasterChef"/>
 			<property class="Action0">
 				<property name="Create_item" value="foodEgg"/>
 				<property name="Create_item_count" value="100"/>
@@ -335,9 +380,8 @@
 		</item>
 
 		<item name="foodBundleCornMeal">
-			<property name="Extends" value="foodBundleRawMeat"/>
+			<property name="Extends" value="foodBundleMaster"/>
 			<property name="CustomIcon" value="foodCornMeal"/>
-			<property name="UnlockedBy" value="perkMasterChef"/>
 			<property class="Action0">
 				<property name="Create_item" value="foodCornMeal"/>
 				<property name="Create_item_count" value="100"/>
@@ -345,9 +389,8 @@
 		</item>
 
 		<item name="foodBundleCropBlueberries">
-			<property name="Extends" value="foodBundleRawMeat"/>
+			<property name="Extends" value="foodBundleMaster"/>
 			<property name="CustomIcon" value="foodCropBlueberries"/>
-			<property name="UnlockedBy" value="perkMasterChef"/>
 			<property class="Action0">
 				<property name="Create_item" value="foodCropBlueberries"/>
 				<property name="Create_item_count" value="100"/>
@@ -355,9 +398,8 @@
 		</item>
 
 		<item name="foodBundleCropCorn">
-			<property name="Extends" value="foodBundleRawMeat"/>
+			<property name="Extends" value="foodBundleMaster"/>
 			<property name="CustomIcon" value="foodCropCorn"/>
-			<property name="UnlockedBy" value="perkMasterChef"/>
 			<property class="Action0">
 				<property name="Create_item" value="foodCropCorn"/>
 				<property name="Create_item_count" value="100"/>
@@ -365,10 +407,9 @@
 		</item>
 
 		<item name="foodBundleCropGraceCorn">
-			<property name="Extends" value="foodBundleRawMeat"/>
+			<property name="Extends" value="foodBundleMaster"/>
 			<property name="CustomIcon" value="foodCropCorn"/>
 			<property name="CustomIconTint" value="ff9f9f"/>
-			<property name="UnlockedBy" value="perkMasterChef"/>
 			<property class="Action0">
 				<property name="Create_item" value="foodCropGraceCorn"/>
 				<property name="Create_item_count" value="100"/>
@@ -376,9 +417,8 @@
 		</item>
 
 		<item name="foodBundleCropPotato">
-			<property name="Extends" value="foodBundleRawMeat"/>
+			<property name="Extends" value="foodBundleMaster"/>
 			<property name="CustomIcon" value="foodCropPotato"/>
-			<property name="UnlockedBy" value="perkMasterChef"/>
 			<property class="Action0">
 				<property name="Create_item" value="foodCropPotato"/>
 				<property name="Create_item_count" value="100"/>
@@ -386,9 +426,8 @@
 		</item>
 
 		<item name="foodBundleCropMushrooms">
-			<property name="Extends" value="foodBundleRawMeat"/>
+			<property name="Extends" value="foodBundleMaster"/>
 			<property name="CustomIcon" value="foodCropMushrooms"/>
-			<property name="UnlockedBy" value="perkMasterChef"/>
 			<property class="Action0">
 				<property name="Create_item" value="foodCropMushrooms"/>
 				<property name="Create_item_count" value="100"/>
@@ -396,9 +435,8 @@
 		</item>
 
 		<item name="foodBundleCropYuccaFruit">
-			<property name="Extends" value="foodBundleRawMeat"/>
+			<property name="Extends" value="foodBundleMaster"/>
 			<property name="CustomIcon" value="foodCropYuccaFruit"/>
-			<property name="UnlockedBy" value="perkMasterChef"/>
 			<property class="Action0">
 				<property name="Create_item" value="foodCropYuccaFruit"/>
 				<property name="Create_item_count" value="100"/>
@@ -406,9 +444,8 @@
 		</item>
 
 		<item name="foodBundleCropPumpkin">
-			<property name="Extends" value="foodBundleRawMeat"/>
+			<property name="Extends" value="foodBundleMaster"/>
 			<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
-			<property name="UnlockedBy" value="perkMasterChef"/>
 			<property class="Action0">
 				<property name="Create_item" value="foodCropPumpkin"/>
 				<property name="Create_item_count" value="100"/>
