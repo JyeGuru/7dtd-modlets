@@ -8,6 +8,10 @@
 		,thrownAmmoBundleMolotovCocktail,thrownAmmoBundleGrenade,thrownAmmoBundleGrenadeContact,thrownAmmoBundleTimedCharge,thrownAmmoBundleDynamite,thrownAmmoBundlePipeBomb
 	</append>
 
+	<append xpath="progression/perks/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">
+		,mineBundleCandyTin,mineBundleScrapIronPlate,mineBundleCookingPot,mineBundleHubcap,mineBundleAirFilter
+	</append>
+
 	<append xpath="progression/perks/perk[@name='perkArtOfMiningPallets']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1']/@tags">
 		,resourceBundleScrapBrass,resourceBundleCrushedSand,resourceBundleClayLump,resourceBundleCobblestones,resourceBundleCement,resourceBundleConcreteMix
 	</append>

@@ -114,6 +114,24 @@
 			<ingredient name="thrownAmmoPipeBomb" count="20"/>
 		</recipe>
 
+		<!-- Custom land mine bundles -->
+		<!-- Set to be unlocked by perkDemolitionsExpert level 1 (progression.xml) -->
+		<recipe name="mineBundleCandyTin" count="1" craft_time="10" tag="learnable">
+			<ingredient name="mineCandyTin" count="25"/>
+		</recipe>
+		<recipe name="mineBundleScrapIronPlate" count="1" craft_time="10" tag="learnable">
+			<ingredient name="rScrapIronPlateMine" count="25"/>
+		</recipe>
+		<recipe name="mineBundleCookingPot" count="1" craft_time="10" tag="learnable">
+			<ingredient name="mineCookingPot" count="25"/>
+		</recipe>
+		<recipe name="mineBundleHubcap" count="1" craft_time="10" tag="learnable">
+			<ingredient name="mineHubcap" count="20"/>
+		</recipe>
+		<recipe name="mineBundleAirFilter" count="1" craft_time="10" tag="learnable">
+			<ingredient name="mineAirFilter" count="10"/>
+		</recipe>
+
 		<!-- Custom resource bundles -->
 		<!-- Set to be unlocked by perkArtOfMiningPallets book (progression.xml) -->
 		<recipe name="resourceBundleScrapBrass" count="1" craft_time="10" tag="learnable">

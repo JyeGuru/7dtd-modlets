@@ -186,6 +186,61 @@
 			</property>
 		</item>
 
+		<!-- Land mine bundles -->
+		<item name="mineBundleCandyTin">
+			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="CustomIcon" value="mineCandyTin"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="EconomicValue" value="2425"/>
+			<property name="UnlockedBy" value="perkDemolitionsExpert"/>
+			<property name="DescriptionKey" value="mineBundleGroupDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mineCandyTin"/>
+				<property name="Create_item_count" value="25"/>
+			</property>
+		</item>
+
+		<item name="mineBundleScrapIronPlate">
+			<property name="Extends" value="mineBundleCandyTin"/>
+			<property name="CustomIcon" value="rScrapIronPlate"/>
+			<property name="EconomicValue" value="2875"/>
+			<property class="Action0">
+				<property name="Create_item" value="rScrapIronPlateMine"/>
+				<property name="Create_item_count" value="25"/>
+			</property>
+		</item>
+
+		<item name="mineBundleCookingPot">
+			<property name="Extends" value="mineBundleCandyTin"/>
+			<property name="CustomIcon" value="toolCookingPot"/>
+			<property name="CustomIconTint" value="ffb0b0"/>
+			<property name="EconomicValue" value="3000"/>
+			<property class="Action0">
+				<property name="Create_item" value="mineCookingPot"/>
+				<property name="Create_item_count" value="25"/>
+			</property>
+		</item>
+
+		<item name="mineBundleHubcap">
+			<property name="Extends" value="mineBundleCandyTin"/>
+			<property name="CustomIcon" value="mineHubcap"/>
+			<property name="EconomicValue" value="2920"/>
+			<property class="Action0">
+				<property name="Create_item" value="mineHubcap"/>
+				<property name="Create_item_count" value="20"/>
+			</property>
+		</item>
+
+		<item name="mineBundleAirFilter">
+			<property name="Extends" value="mineBundleCandyTin"/>
+			<property name="CustomIcon" value="mineAirFilter"/>
+			<property name="EconomicValue" value="1820"/>
+			<property class="Action0">
+				<property name="Create_item" value="mineAirFilter"/>
+				<property name="Create_item_count" value="10"/>
+			</property>
+		</item>
+
 		<!-- Resource Bundles -->
 		<item name="resourceBundleScrapBrass">
 			<property name="Extends" value="resourceRockSmallBundle"/>
