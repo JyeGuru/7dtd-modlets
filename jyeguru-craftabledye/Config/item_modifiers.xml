@@ -9,6 +9,7 @@
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="EconomicValue" value="10"/>
 			<property name="DisplayType" value="clothing"/>
+			<property name="Material" value="Mpaint"/>
 			<item_property_overrides name="*">
 				<property name="CustomIconTint" value="20,20,20"/>
 				<property name="UMA.Mesh" value=""/>

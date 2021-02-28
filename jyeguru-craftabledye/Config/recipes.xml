@@ -4,7 +4,7 @@
 
 		<!-- Clear Dye - Added by this mod -->
 		<recipe name="ClearDye" count="1">
-			<ingredient name="resourcePaint" count="150"/>
+			<ingredient name="resourcePaint" count="15"/>
 		</recipe>
 
 		<!-- Vanilla dye, enable breaking down and re-crafting -->
