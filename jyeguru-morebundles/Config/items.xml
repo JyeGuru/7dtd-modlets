@@ -87,6 +87,87 @@
 			</property>
 		</item>
 
+		<!-- Crafting resource bundles -->
+		<item name="resourceBundleCloth">
+			<property name="Extends" value="customBundleMaster"/>
+			<property name="CustomIcon" value="resourceCloth"/>
+			<property name="Stacknumber" value="10"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceCloth"/>
+				<property name="Create_item_count" value="500"/>
+			</property>
+		</item>
+
+		<item name="resourceBundleElectricParts">
+			<property name="Extends" value="customBundleMaster"/>
+			<property name="CustomIcon" value="resourceElectricParts"/>
+			<property name="Stacknumber" value="10"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceElectricParts"/>
+				<property name="Create_item_count" value="1000"/>
+			</property>
+		</item>
+
+		<item name="resourceBundleFeather">
+			<property name="Extends" value="customBundleMaster"/>
+			<property name="CustomIcon" value="resourceFeather"/>
+			<property name="Stacknumber" value="10"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceFeather"/>
+				<property name="Create_item_count" value="250"/>
+			</property>
+		</item>
+
+		<item name="resourceBundleLeather">
+			<property name="Extends" value="customBundleMaster"/>
+			<property name="CustomIcon" value="resourceLeather"/>
+			<property name="Stacknumber" value="10"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceLeather"/>
+				<property name="Create_item_count" value="250"/>
+			</property>
+		</item>
+
+		<item name="resourceBundleMechanicalParts">
+			<property name="Extends" value="customBundleMaster"/>
+			<property name="CustomIcon" value="resourceMechanicalParts"/>
+			<property name="Stacknumber" value="10"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceMechanicalParts"/>
+				<property name="Create_item_count" value="500"/>
+			</property>
+		</item>
+
+		<item name="resourceBundleOil">
+			<property name="Extends" value="customBundleMaster"/>
+			<property name="CustomIcon" value="resourceOil"/>
+			<property name="Stacknumber" value="10"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceOil"/>
+				<property name="Create_item_count" value="50"/>
+			</property>
+		</item>
+
+		<item name="resourceBundlePaper">
+			<property name="Extends" value="customBundleMaster"/>
+			<property name="CustomIcon" value="resourcePaper"/>
+			<property name="Stacknumber" value="10"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourcePaper"/>
+				<property name="Create_item_count" value="500"/>
+			</property>
+		</item>
+
+		<item name="resourceBundleScrapPolymers">
+			<property name="Extends" value="customBundleMaster"/>
+			<property name="CustomIcon" value="resourceScrapPolymers"/>
+			<property name="Stacknumber" value="10"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceScrapPolymers"/>
+				<property name="Create_item_count" value="500"/>
+			</property>
+		</item>
+
 		<!-- Healing bundles -->
 		<item name="medicalBundleMaster">
 			<property name="Extends" value="customBundleMaster"/>

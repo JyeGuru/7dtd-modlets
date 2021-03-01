@@ -234,6 +234,32 @@
 			<ingredient name="drugSteroids" count="10"/>
 		</recipe>
 
+		<!-- Crafting resource bundles -->
+		<recipe name="resourceBundleCloth" count="1" craft_exp_gain="0" craft_time="10">
+			<ingredient name="resourceCloth" count="250"/>
+		</recipe>
+		<recipe name="resourceBundleElectricParts" count="1" craft_exp_gain="0" craft_time="10">
+			<ingredient name="resourceElectricParts" count="1000"/>
+		</recipe>
+		<recipe name="resourceBundleFeather" count="1" craft_exp_gain="0" craft_time="10">
+			<ingredient name="resourceFeather" count="250"/>
+		</recipe>
+		<recipe name="resourceBundleLeather" count="1" craft_exp_gain="0" craft_time="10">
+			<ingredient name="resourceLeather" count="250"/>
+		</recipe>
+		<recipe name="resourceBundleMechanicalParts" count="1" craft_exp_gain="0" craft_time="10">
+			<ingredient name="resourceMechanicalParts" count="1000"/>
+		</recipe>
+		<recipe name="resourceBundleOil" count="1" craft_exp_gain="0" craft_time="10">
+			<ingredient name="resourceOil" count="50"/>
+		</recipe>
+		<recipe name="resourceBundlePaper" count="1" craft_exp_gain="0" craft_time="10">
+			<ingredient name="resourcePaper" count="500"/>
+		</recipe>
+		<recipe name="resourceBundleScrapPolymers" count="1" craft_exp_gain="0" craft_time="10">
+			<ingredient name="resourceScrapPolymers" count="1000"/>
+		</recipe>
+
 	</append>
 
 </configs>

@@ -55,3 +55,19 @@ mineBundleCookingPot,items,bundle,New,Case of Cooking Pot Mines (25)
 mineBundleHubcap,items,bundle,New,Case of Hubcap Mines (20)
 mineBundleAirFilter,items,bundle,New,Case of Air Filter Mines (10)
 mineBundleGroupDesc,items,bundle,New,This is a case of land mines. Use this item to open and unpack it.
+resourceBundleCloth,items,bundle,New,Bundle of Cloth (250)
+resourceBundleClothDesc,items,bundle,New,This is a bundle of cloth scraps. Use this item to open and unpack it.
+resourceBundleElectricParts,items,bundle,New,Bundle of Electric Parts (1000)
+resourceBundleElectricPartsDesc,items,bundle,New,This is a bundle of electric parts. Use this item to open and unpack it.
+resourceBundleFeather,items,bundle,New,Bundle of Feathers (250)
+resourceBundleFeatherDesc,items,bundle,New,This is a bundle of feathers. Use this item to open and unpack it.
+resourceBundleLeather,items,bundle,New,Bundle of Leather (250)
+resourceBundleLeatherDesc,items,bundle,New,This is a bundle of leather. Use this item to open and unpack it.
+resourceBundleMechanicalParts,items,bundle,New,Bundle of Mechanical Parts (1000)
+resourceBundleMechanicalPartsDesc,items,bundle,New,This is a bundle of mechanical parts. Use this item to open and unpack it.
+resourceBundleOil,items,bundle,New,Bundle of Oil (50)
+resourceBundleOilDesc,items,bundle,New,This is a bundle of oil. Use this item to open and unpack it.
+resourceBundlePaper,items,bundle,New,Bundle of Paper (500)
+resourceBundlePaperDesc,items,bundle,New,This is a bundle of paper. Use this item to open and unpack it.
+resourceBundleScrapPolymers,items,bundle,New,Bundle of Scrap Polymers (1000)
+resourceBundleScrapPolymersDesc,items,bundle,New,This is a bundle of scrap polymers. Use this item to open and unpack it.
