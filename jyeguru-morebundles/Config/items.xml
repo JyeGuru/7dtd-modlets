@@ -4,6 +4,8 @@
 	<set xpath="/items/item[@name='resourceRockSmallBundle']/property[@name='ItemTypeIcon']/@value">bundle</set>
 	<set xpath="/items/item[@name='resourceRockSmallBundle']/property[@name='Group']/@value">_Bundle</set>
 	<set xpath="/items/item[@name='ammoBundleMaster']/property[@name='Group']/@value">_Bundle</set>
+	<set xpath="/items/item[@name='ammoGasCanBundle']/property[@name='Group']/@value">_Bundle</set>
+	<set xpath="/items/item[@name='resourceGunPowderBundle']/property[@name='Group']/@value">_Bundle</set>
 
 	<append xpath="/items">
 
