@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="JyeGuru-LootableStealthBoots" />
+		<Description value="Adds Military Stealth Boots to the loot tables anywhere normal military boots can be found." />
+		<Author value="JyeGuru" />
+		<Version value="1.0" compat="A19"/>
+		<Website value="" />
+	</ModInfo>
+</xml>
