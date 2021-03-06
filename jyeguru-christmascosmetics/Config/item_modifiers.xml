@@ -7,7 +7,6 @@
 			<property name="Stacknumber" value="1"/>
 			<property name="Group" value="Mods"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="EconomicValue" value="440"/>
 			<property name="DisplayType" value="clothing"/>
 			<item_property_overrides name="*">
 				<property name="UMA.Mesh" value="gear_santa_hat"/>
@@ -26,25 +25,25 @@
 			<property name="Group" value="Mods"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="CustomIcon" value="meleeWpnClubT1CandyClub"/>
-			<property name="EconomicValue" value="440"/>
 			<item_property_overrides name="*">
 				<property name="Meshfile" value="#Other/Items?Weapons/Melee/Candycane/candycanePrefab.prefab"/>
 			</item_property_overrides>
+			<effect_group tiered="false">
+			</effect_group>
 		</item_modifier>
 
-		<!-- Apparently it's not possible to skin knives? This mod always results in a Null Reference error ...
-		
+		<!-- Thanks to Snufkin for figuring this out! Needed an effect_group to work! -->
 		<item_modifier name="modMeleeShivCandyCane" installable_tags="knife" modifier_tags="christmas" blocked_tags="noMods" type="attachment">
 			<property name="Stacknumber" value="1"/>
 			<property name="Group" value="Mods"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="CustomIcon" value="meleeWpnBladeT1CandyKnife"/>
-			<property name="EconomicValue" value="440"/>
 			<item_property_overrides name="*">
 				<property name="Meshfile" value="#Other/Items?Weapons/Melee/Candycane/candycaneShivPrefab.prefab"/>
 			</item_property_overrides>
+			<effect_group tiered="false">
+			</effect_group>
 		</item_modifier>
-		-->
 
 	</append>
 
