@@ -33,7 +33,7 @@
 		</item_modifier>
 
 		<!-- Thanks to Snufkin for figuring this out! Needed an effect_group to work! -->
-		<item_modifier name="modMeleeShivCandyCane" installable_tags="knife" modifier_tags="christmas" blocked_tags="noMods" type="attachment">
+		<item_modifier name="modMeleeShivCandyCane" installable_tags="knife,machete" modifier_tags="christmas" blocked_tags="noMods" type="attachment">
 			<property name="Stacknumber" value="1"/>
 			<property name="Group" value="Mods"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
