@@ -1,7 +1,7 @@
 <configs>
 
-	<insertafter xpath="/lootcontainers/lootgroup/item[@name='armorMilitaryBoots']">
+	<insertAfter xpath="/lootcontainers/lootgroup/item[@name='armorMilitaryBoots']">
 		<item name="armorMilitaryStealthBoots" prob="0.5"/>
-	</insertafter>
+	</insertAfter>
 
 </configs>
