@@ -20,7 +20,7 @@
 			</effect_group>
 		</item_modifier>
 
-		<item_modifier name="modMeleeClubCandyCane" installable_tags="club" modifier_tags="christmas" blocked_tags="noMods" type="attachment">
+		<item_modifier name="modMeleeClubCandyCane" installable_tags="club,machete" modifier_tags="christmas" blocked_tags="noMods" type="attachment">
 			<property name="Stacknumber" value="1"/>
 			<property name="Group" value="Mods"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
