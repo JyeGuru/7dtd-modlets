@@ -1,0 +1,18 @@
+<configs>
+
+	<!-- Interim version which only removes input slots, leaving the contents visible for transitioning an existing game -->
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content']">
+		<grid depth="7" rows="0" cols="0" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationMaterialInputGrid" repeat_content="true" />
+	</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/@pos">0, -49</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/@width">225</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/grid/@pos">8,-3</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/grid/@cell_width">220</set>
+	<!-- -->
+
+	<!-- Full version to remove entire input/contents panel -->
+	<!-- Comment this out if you are adding to an existing game, until the forges are empty -->
+	<remove xpath="/windows/window[@name='windowForgeInput']" />
+	<!-- -->
+
+</configs>

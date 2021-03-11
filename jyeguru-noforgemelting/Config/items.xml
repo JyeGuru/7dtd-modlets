@@ -1,0 +1,11 @@
+<configs>
+
+	<append xpath="/items/item[@name='resourceScrapBrass']">
+		<property name="CraftingIngredientTime" value="0.01"/>
+	</append>
+
+	<append xpath="/items/item[@name='resourceScrapLead']">
+		<property name="CraftingIngredientTime" value="0.01"/>
+	</append>
+
+</configs>
