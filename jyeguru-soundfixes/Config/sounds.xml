@@ -1,0 +1,16 @@
+<configs>
+
+  <set xpath="/Sounds/SoundDataNode[@name='Auger_Fire_Start']/LocalCrouchVolumeScale/@value">0.1</set>
+  <set xpath="/Sounds/SoundDataNode[@name='chainsaw_fire_start']/LocalCrouchVolumeScale/@value">0.1</set>
+
+  <set xpath="/Sounds/SoundDataNode[@name='bullethitcloth']/LocalCrouchVolumeScale/@value">0.5</set>
+  <set xpath="/Sounds/SoundDataNode[@name='bullethitearth']/LocalCrouchVolumeScale/@value">0.5</set>
+  <set xpath="/Sounds/SoundDataNode[@name='bullethitglass']/LocalCrouchVolumeScale/@value">0.5</set>
+  <set xpath="/Sounds/SoundDataNode[@name='bullethitmetal']/LocalCrouchVolumeScale/@value">0.5</set>
+  <set xpath="/Sounds/SoundDataNode[@name='bullethitorganic']/LocalCrouchVolumeScale/@value">0.5</set>
+  <set xpath="/Sounds/SoundDataNode[@name='bullethitplant']/LocalCrouchVolumeScale/@value">0.5</set>
+  <set xpath="/Sounds/SoundDataNode[@name='bullethitsnow']/LocalCrouchVolumeScale/@value">0.5</set>
+  <set xpath="/Sounds/SoundDataNode[@name='bullethitstone']/LocalCrouchVolumeScale/@value">0.5</set>
+  <set xpath="/Sounds/SoundDataNode[@name='bullethitwood']/LocalCrouchVolumeScale/@value">0.5</set>
+
+</configs>
