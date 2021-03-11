@@ -1,0 +1,3 @@
+Key,Source,Context,Changes,English
+magnumTurret,blocks,Electricity,New,Magnum Auto Turret
+magnumTurretDesc,blocks,Electricity,New,A motion sensing six-shooter. For the robot cowboy inside you.

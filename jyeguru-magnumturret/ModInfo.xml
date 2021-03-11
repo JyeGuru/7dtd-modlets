@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="JyeGuru-MagnumTurret" />
+		<Description value="Adds a .44 Magnum Auto Turret." />
+		<Author value="JyeGuru" />
+		<Version value="1.0" compat="A19"/>
+		<Website value="" />
+	</ModInfo>
+</xml>

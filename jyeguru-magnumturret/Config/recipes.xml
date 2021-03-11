@@ -1,0 +1,15 @@
+<configs>
+
+	<append xpath="/recipes">
+
+		<recipe name="magnumTurret" craft_time="30" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="autoTurret" count="1"/>
+		</recipe>
+
+		<recipe name="autoTurret" craft_time="30" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="magnumTurret" count="1"/>
+		</recipe>
+
+	</append>
+
+</configs>

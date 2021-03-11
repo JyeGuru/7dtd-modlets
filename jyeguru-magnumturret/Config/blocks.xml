@@ -1,0 +1,23 @@
+<configs>
+
+	<insertAfter xpath="/blocks/block[@name='autoTurret']">
+
+		<block name="magnumTurret">
+			<property name="Extends" value="autoTurret"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="autoTurret"/>
+			<property name="AmmoItem" value="ammo44MagnumBulletBall"/>
+
+			<property name="EntityDamage" value="70"/>
+
+			<property name="BurstRoundCount" value="6"/>
+			<property name="BurstFireRate" value="0.3"/>
+			<property name="CooldownTime" value="2"/>
+
+			<property name="FireSound" value="44magnum_fire"/>
+
+		</block>
+
+	</insertAfter>
+
+</configs>
