@@ -1,0 +1,5 @@
+<configs>
+
+	<set xpath="/items/item[@name='drinkJarBoiledWater']/property[@name='Stacknumber']/@value">125</set>
+
+</configs>

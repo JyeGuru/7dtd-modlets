@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="JyeGuru-SensibleStacks" />
+		<Description value="Modifies stack sizes of non-bundle items to better approach large amounts of storage." />
+		<Author value="JyeGuru" />
+		<Version value="1.0" compat="A19"/>
+		<Website value="" />
+	</ModInfo>
+</xml>
