@@ -12,8 +12,4 @@
 		<property name="StickyMaterial" value="#Other/Items?Weapons/Melee/Spear/Materials/spearIron_sticky.mat"/>
 	</append>
 
-	<append xpath="/items/item[@name='ammoArrowGrenade']">
-		<property name="StickyMaterial" value="@Other/Items?Weapons/Melee/Speer/Materials/spearIron_sticky.mat"/>
-	</append>
-
 </configs>
