@@ -1,0 +1,19 @@
+<configs>
+
+	<append xpath="/items/item[@name='ammoArrowSteelAP']">
+		<property name="StickyMaterial" value="#Other/Items?Weapons/Melee/Spear/Materials/spearIron_sticky.mat"/>
+	</append>
+
+	<append xpath="/items/item[@name='ammoArrowIron']">
+		<property name="StickyMaterial" value="#Other/Items?Weapons/Melee/Spear/Materials/spearIron_sticky.mat"/>
+	</append>
+
+	<append xpath="/items/item[@name='ammoArrowStone']">
+		<property name="StickyMaterial" value="#Other/Items?Weapons/Melee/Spear/Materials/spearIron_sticky.mat"/>
+	</append>
+
+	<append xpath="/items/item[@name='ammoArrowGrenade']">
+		<property name="StickyMaterial" value="@Other/Items?Weapons/Melee/Speer/Materials/spearIron_sticky.mat"/>
+	</append>
+
+</configs>
