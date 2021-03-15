@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="JyeGuru-ExtraVehicleSeats" />
+		<Description value="Adds additional seats to the motorbike, bicycle, and 4x4." />
+		<Author value="JyeGuru" />
+		<Version value="1.0" compat="A19"/>
+		<Website value="" />
+	</ModInfo>
+</xml>
